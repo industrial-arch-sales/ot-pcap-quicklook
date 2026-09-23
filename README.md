@@ -7,7 +7,7 @@ Built for industrial cybersecurity engineers, OT pentesters, and IEC 62443 asses
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR-GITHUB-USER/ot-pcap-quicklook.git
+git clone https://github.com/industrial-arch-sales/ot-pcap-quicklook.git
 cd ot-pcap-quicklook
 python3 main.py ./capture.pcap
 ```
