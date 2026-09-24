@@ -9,8 +9,12 @@ Built for industrial cybersecurity engineers, OT pentesters, and IEC 62443 asses
 ```bash
 git clone https://github.com/industrial-arch-sales/ot-pcap-quicklook.git
 cd ot-pcap-quicklook
-python3 main.py ./capture.pcap
+python3 main.py examples/synthetic-modbus.pcap
 ```
+
+This built-in capture is fully synthetic: normal Modbus polling plus a write
+command from a second host. Compare your result with
+[`examples/expected-output.txt`](examples/expected-output.txt).
 
 For a text log:
 
@@ -45,7 +49,7 @@ Treat output as an initial observation, not proof of an incident or a security f
 
 ## Need an assessment-ready report?
 
-For structured findings, Modbus write-command analysis, policy context, and SHA-256 traceability designed for client-facing OT assessments, use **[SXT Systems OT Security Engine](https://ot.sxtsystems.com.br)**.
+For structured findings, Modbus write-command analysis, policy context, and SHA-256 traceability designed for client-facing OT assessments, use **[SXT Systems OT Security Engine](https://ot.sxtsystems.com.br/?utm_source=github&utm_medium=referral&utm_campaign=ot-pcap-quicklook)**.
 
 See a [synthetic Modbus report sample](https://ot.sxtsystems.com.br/sample-report.pdf).
 

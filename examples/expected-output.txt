@@ -1,0 +1,20 @@
+Input: examples/synthetic-modbus.pcap
+PCAP packets inspected: 6 | IPv4/TCP frames: 6
+
+Top TCP conversations
+       2  10.20.30.10:43122 -> 10.20.30.50:502
+       2  10.20.30.50:502 -> 10.20.30.10:43122
+       1  10.20.30.99:49152 -> 10.20.30.50:502
+       1  10.20.30.50:502 -> 10.20.30.99:49152
+
+Modbus function codes
+       4  unit 1: Read Holding Registers
+       2  unit 1: Write Single Register
+
+Potential Modbus write commands
+       2  unit 1: Write Single Register
+
+MQTT packet types (port 1883)
+  None observed
+
+Note: results are static packet observations; TCP stream reassembly is not performed.
